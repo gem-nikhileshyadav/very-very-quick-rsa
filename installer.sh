@@ -22,7 +22,6 @@ if ! [ -e "$sdtid" ]; then
     exit 1
 fi
 stoken import --file="$sdtid" --force --new-password=${passkey}
-echo $passkey
 if  [ $? -ne 0 ];then
     echo "error in stoken installatin"
 fi
