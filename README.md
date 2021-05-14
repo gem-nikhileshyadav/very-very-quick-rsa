@@ -1,8 +1,8 @@
-# very-very-quick-rsa
+# very-very-quick-rsa 
 
- `CTRL`+`ALT`+`r` beings RSA token to clipboard
+ `CTRL`+`ALT`+`r` brings RSA token directly to clipboard
 
-# INSTALLATION
+# INSTALLATION ⚙️
 ```bash
 git clone https://github.com/gem-nikhileshyadav/very-very-quick-rsa
 cd very-very-quick-rsa
@@ -20,6 +20,8 @@ Any of the following events deactivates it , signals via low tone beep sound, al
 - pressing `CTRL`+`ALT`+`r` 
 
 
-# NOTE
+# NOTE :warning:
+- need token file (.sdtfile) in xmlformat which must not require device id
 - tested on gnome only
 - contribute to typeas.sh 
+- tested on bash, might not work on zsh or others
