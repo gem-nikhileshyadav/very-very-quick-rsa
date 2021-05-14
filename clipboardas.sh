@@ -1,7 +1,7 @@
-password=' '
+password=PASPAPSPASPSAPSPADSDAS
         if ! [ -e ~/.clipboard_pre_rsa ]; then
                 old_data=`xclip -out -selection clipboard`
-                valid_for=$[ 59 - `date| grep -oE ':[0-5][0-9] '| grep -oE '[0-5][0-9]'` ]
+                valid_for=$[ 59 - `date +%S` ]
                 token=`echo "$password"|stoken -s`
 #		spd-say "token is $token";
                 echo  "$old_data" > ~/.clipboard_pre_rsa
