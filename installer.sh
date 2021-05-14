@@ -54,7 +54,7 @@ else
     echo "installation found, will update"
 fi
 
-cat ./clipboardas.sh | sed "s/PASPAPSPASPSAPSPADSDAS/\"$passkey\"/" >"$HOME/.clipboardas.sh"
+cat ./clipboardas.sh | sed "s/<PASPAPSPASPSAPSPADSDAS>/\"$passkey\"/" >"$HOME/.clipboardas.sh"
 
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom${i}/ name 'quick-rsa'
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom${i}/ binding '<Primary><Alt>r'
