@@ -25,3 +25,6 @@ Any of the following events deactivates it , signals via low tone beep sound, al
 - tested on gnome only
 - contribute to typeas.sh 
 - tested on bash, might not work on zsh or others
+
+# TODO 
+- uninstallation script
